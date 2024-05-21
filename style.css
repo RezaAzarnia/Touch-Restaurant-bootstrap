@@ -1,191 +1,195 @@
+body {
+  overflow-x: hidden;
+}
 header {
-    background: url(./images/new\ background.png);
-    width: 100%;
-    max-height: 44rem;
-    background-size: cover;
-    /* background-attachment: fixed; */
+  background: url(./images/new\ background.png);
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
 }
 
+
 .font-xl {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 body {
-    overflow-x: hidden;
-    font-family: sans-serif;
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 * h5 {
-    font-size: 1.25rem;
-    font-style: italic;
-    font-weight: 400;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 400;
 }
 
 * p {
-    font-size: 0.85rem;
-    font-weight: 400;
+  font-size: 0.85rem;
+  font-weight: 400;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 0.65rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.65rem;
 }
 
 .navbar-nav .nav-item {
-    padding: 0 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .collapse .navbar-brand:hover,
 .collapse ul .nav-link:hover {
-    color: gold;
-    transition: 0.5s;
+  color: gold;
+  transition: 0.5s;
 }
 
 .container {
-    position: relative;
+  position: relative;
 }
 
 .container .col-12 .btn {
-    font-size: 0.85rem;
-    padding: 1rem 1.5rem;
-    font-weight: 500;
-    outline: none;
+  font-size: 0.85rem;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  outline: none;
 }
 
 .container button:hover {
-    color: gold;
+  color: gold;
 }
 
 .container .second-box::before {
-    content: "";
-    position: absolute;
-    width: 21%;
-    height: 93%;
-    border: 1px solid #dfd6d6;
-    left: 31%;
-    top: 14%;
-    bottom: 0;
-    z-index: -101;
+  content: "";
+  position: absolute;
+  width: 21%;
+  height: 93%;
+  border: 1px solid #dfd6d6;
+  left: 31%;
+  top: 14%;
+  bottom: 0;
+  z-index: -101;
 }
 
 .container .bg-primary {
-    background-color: #f5a637!important;
-    ;
+  background-color: #f5a637 !important;
 }
 
 .container .second-box img,
 .container .third-img img {
-    max-width: 70%;
+  max-width: 70%;
 }
 
 .container .row .third-img::before {
-    content: "";
-    position: absolute;
-    width: 21%;
-    height: 93%;
-    background-color: #ececec;
-    top: -7%;
-    right: 22%;
-    z-index: -100;
+  content: "";
+  position: absolute;
+  width: 21%;
+  height: 93%;
+  background-color: #ececec;
+  top: -7%;
+  right: 22%;
+  z-index: -100;
 }
 
 .container .row .third-img::after {
-    content: "";
-    position: absolute;
-    width: 21%;
-    height: 93%;
-    border: 1px solid #dfd6d6;
-    right: 10%;
-    top: 17%;
-    bottom: 0;
-    z-index: -101;
+  content: "";
+  position: absolute;
+  width: 21%;
+  height: 93%;
+  border: 1px solid #dfd6d6;
+  right: 10%;
+  top: 17%;
+  bottom: 0;
+  z-index: -101;
 }
 
 .image-shadow {
-    background: linear-gradient(180deg, rgba(241, 241, 241, 0.728) 30%);
+  background: linear-gradient(180deg, rgba(241, 241, 241, 0.728) 30%);
 }
 
 .img-part {
-    background: linear-gradient( 180deg, #ffff, rgb(0 0 0 / 10%) 30%), linear-gradient( 113deg, #fff, rgb(9 9 9 / 10%) 15%), url(./images/second-back.png);
-    width: 100%;
-    height: 35rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    margin-top: 7rem;
+  background: linear-gradient(180deg, #ffff, rgb(0 0 0 / 10%) 30%),
+    linear-gradient(113deg, #fff, rgb(9 9 9 / 10%) 15%),
+    url(./images/second-back.png);
+  width: 100%;
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: 7rem;
 }
 
 .tab-content .tab-pane .active .show {
-    border-bottom: 2px slid gold;
+  border-bottom: 2px slid gold;
 }
 
 .container .nav .nav-link {
-    font-size: 0.85rem;
-    font-weight: bold;
-    position: relative;
+  font-size: 0.85rem;
+  font-weight: bold;
+  position: relative;
 }
 
 .container .nav .nav-link::after {
-    content: "";
-    position: absolute;
-    width: 3.2rem;
-    height: 2px;
-    background-color: #ffe600;
-    bottom: 0px;
-    left: 16px;
-    top: 34px;
-    opacity: 0;
-    transition: 0.5s;
+  content: "";
+  position: absolute;
+  width: 3.2rem;
+  height: 2px;
+  background-color: #ffe600;
+  bottom: 0px;
+  left: 16px;
+  top: 34px;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .container .nav .nav-item .active::after {
-    opacity: 1;
+  opacity: 1;
 }
 
 .container .nav .nav-link:focus::after {
-    opacity: 1;
-    transition: 0.5s;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .flickity-viewport {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
-.container.container-slider .row.row-blockqute-slider .blockqute-container {
-    max-width: 879px;
+ .container.container-slider .row.row-blockqute-slider .blockqute-container {
+  max-width: 879px;
 }
 
-.container.container-slider .row.row-blockqute-slider .slider-picture {
-    max-width: 250px;
-}
 
 .container.container.container-slider .flickity-prev-next-button.previous,
 .container.container.container-slider .flickity-prev-next-button.next {
-    background: #cfcccc;
-    margin: 0 8rem;
-}
+  background: #cfcccc;
+  margin: 0 4rem;
+} 
 
+.container.container-slider .row.row-blockqute-slider .slider-picture {
+  max-height: 350px;
+}
 .container.container-slider .flickity-page-dots .dot {
-    background-color: #ffe600;
+  background-color: #ffe600;
 }
 
 .container.container-images .row .picture {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .container.container-images .row .Img-1:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .collapse-container #events .collapse.collapse-picture {
-    background: url(./images/singer-girl.jpg);
-    background-position: -346px -235px;
+  background: url(./images/singer-girl.jpg);
+  background-position: -346px -235px;
 }
 
 .collapse-container #events .collapse.collapse-picture-2 {
-    background: url(./images/party.jpg);
-    background-position: -223px -446px;
+  background: url(./images/party.jpg);
+  background-position: -223px -446px;
 }
